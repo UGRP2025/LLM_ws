@@ -21,7 +21,6 @@
 ## Workspace
 LLM_ws/
  ├── src/
- │   ├── realsense2_camera/          # github.com/IntelRealSense/realsense-ros -b foxy
  │   └── vision_llm_control/
  │       ├── package.xml             # format="3", build_type="ament_python"
  │       ├── setup.py

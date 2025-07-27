@@ -18,8 +18,8 @@ def generate_launch_description():
         # Vision‑LLM Control
         Node(
             package='vision_llm_control',
-            executable='vision_llm_node',
-            name='vision_llm_node',
+            executable='llm_driver',
+            name='llm_driver_node',
             parameters=[{
                 'model_path': FindPackageShare('vision_llm_control').find('vision_llm_control') + '/models/gemma3_vision.pt',
                 'speed_limit': 2.5

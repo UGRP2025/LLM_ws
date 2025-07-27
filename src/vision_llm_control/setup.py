@@ -26,6 +26,7 @@ setup(
     entry_points={
         'console_scripts': [
             'vision_llm_node = vision_llm_control.vision_llm_node:main',
+            'llm_driver = vision_llm_control.llm_driver:main',
         ],
     },
 )
