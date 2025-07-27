@@ -21,8 +21,8 @@ def generate_launch_description():
             executable='llm_driver',
             name='llm_driver_node',
             parameters=[{
-                'model_path': FindPackageShare('vision_llm_control').find('vision_llm_control') + '/models/gemma3_vision.pt',
-                'speed_limit': 2.5
+                'model_name': 'gemma3',
+                'speed_limit': 1.5
             }],
             output='screen'
         )
