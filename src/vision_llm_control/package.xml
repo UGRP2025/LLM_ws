@@ -5,15 +5,11 @@
   <maintainer email="ugrpf1@gmain.com">DGIST UGRP 2025 F1tenth</maintainer>
   <license>Apache-2.0</license>
 
-  <build_type>ament_python</build_type>
 
   <exec_depend>rclpy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>ackermann_msgs</exec_depend>
   <exec_depend>cv_bridge</exec_depend>
-  <exec_depend>image_transport_py</exec_depend>
-  <exec_depend>torch</exec_depend>
-  <exec_depend>ollama</exec_depend>
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_lint_auto</test_depend>
 </package>
